@@ -72,8 +72,8 @@ The FastAPI app is in `src/app.py`. Key routes are:
 3. Test in a new browser or terminal: 
 
     ```bash
-    curl http://127.0.0.1:8000/health
-    curl http://127.0.0.1:8000/teams
+    curl http://127.0.0.1:8080/health
+    curl http://127.0.0.1:8080/teams
     ```
 
     ---
