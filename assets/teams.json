@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Ravens",
+    "city": "Baltimore",
+    "wins": 11,
+    "losses": 6,
+    "points_scored": 421,
+    "points_allowed": 312
+  },
+  {
+    "name": "Commanders",
+    "city": "Washington",
+    "wins": 12,
+    "losses": 5,
+    "points_scored": 389,
+    "points_allowed": 344
+  },
+  {
+    "name": "Dolphins",
+    "city": "Miami",
+    "wins": 10,
+    "losses": 7,
+    "points_scored": 440,
+    "points_allowed": 367
+  },
+  {
+    "name": "Chiefs",
+    "city": "Kansas City",
+    "wins": 12,
+    "losses": 5,
+    "points_scored": 398,
+    "points_allowed": 301
+  }
+]
