@@ -3,18 +3,15 @@
 ## 1) Executive Summary
 
 **Problem.**  
-For this class I needed a small but real API that works end‑to‑end: it should serve data over HTTP, be easy to run on another machine, and be simple enough that someone can read the code in one sitting. NFL team stats are a nice fit for that because the data is public and easy to reason about.
+Build a small but complete backend service that works end to end. The system should serve data over HTTP, run easily on another machine, and be simple enough that the full codebase can be understood quickly. Public NFL team statistics provide a realistic dataset for demonstrating API design, data handling, and deployment.
 
 **What I built.**  
-I wrote a FastAPI service that serves a tiny dataset of NFL team stats from a JSON file. The app can be run directly with Python or inside a Docker container. There are basic tests with pytest, and the whole thing is set up so a grader can clone the repo, run one command, and hit the endpoints.
-
+Built a FastAPI service that exposes NFL team statistics through REST endpoints. The service loads structured data from JSON, validates requests, and returns consistent responses. It can be run locally with Python or inside a Docker container. Basic automated tests verify core functionality, and the project is structured so a new user can clone the repository, run a single command, and immediately interact with the API.
 ---
 
 ## 2) System Overview
 
-### Course concepts I used
-
-From DS 2022, the main ideas I focused on are:
+### Core concepts I used
 
 - **FastAPI / serving APIs** – defining routes, returning JSON, running with `uvicorn`.
 - **Docker** – building a container image with a `Dockerfile` and running it with a single script.
