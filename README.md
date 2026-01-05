@@ -282,7 +282,7 @@ Current outcome:
   Add structured logging for each request (path, status code, response time) and consider a simple `/metrics` or log summary endpoint so it is easier to see how the service is behaving.
 
 - **Optional cloud deploy.**  
-  Push the Docker image to a registry and deploy it to a small cloud service (for example a cheap VM or container host) so the grader could hit a live URL in addition to running it locally.
+  Push the Docker image to a registry and deploy it to a small cloud service (for example a cheap VM or container host) so the user could hit a live URL in addition to running it locally.
 
 ---
 
