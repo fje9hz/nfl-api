@@ -7,9 +7,12 @@ Build a small but complete backend service that works end to end. The system sho
 
 **What I built.**  
 Built a FastAPI service that exposes NFL team statistics through REST endpoints. The service loads structured data from JSON, validates requests, and returns consistent responses. It can be run locally with Python or inside a Docker container. Basic automated tests verify core functionality, and the project is structured so a new user can clone the repository, run a single command, and immediately interact with the API.
+
 ---
 
 ## 2) System Overview
+
+This project is designed as a lightweight backend service with a clear separation between data loading, request handling, and deployment. The goal is to demonstrate how a simple system can be reliable, easy to run, and easy to reason about.
 
 ### Core concepts I used
 
