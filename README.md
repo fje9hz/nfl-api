@@ -97,7 +97,7 @@ Before running, make sure Docker Desktop is installed and running.
 
 ### Overall approach
 
-I wanted something small, clear, and easy to grade. That drove almost every choice:
+I wanted something small, clear, and easy to understand. That drove almost every choice:
 
 - keep the data in one JSON file instead of a database
 - keep the API surface tiny (`/health`, `/teams`, `/compare/{team_a}/{team_b}`)
@@ -161,7 +161,7 @@ The assignment asked for a containerized, reproducible run, so I added:
   - runs the container on port `8080`
   - passes env vars from `.env.example`
 
-This means the grader can choose either local Python (Option A) or Docker (Option B), and they should see the same behavior.
+This means the user can choose either local Python (Option A) or Docker (Option B), and they should see the same behavior.
 
 ### Testing approach
 
@@ -239,7 +239,7 @@ This is a very small FastAPI app:
 - The Docker image only installs Python, FastAPI, Uvicorn, and pytest.
 - On my laptop, calls to `/health` and `/teams` return almost instantly using `curl`, with no noticeable latency.
 
-For this assignment scale, there are no obvious performance bottlenecks; the limiting factor would just be how many concurrent requests Uvicorn can handle.
+For this project scale, there are no obvious performance bottlenecks; the limiting factor would just be how many concurrent requests Uvicorn can handle.
 
 ### Validation and tests
 
@@ -293,7 +293,7 @@ GitHub repo: <https://github.com/fje9hz/nfl-api>
 
 ## 8) Credits & AI Use
 
-I used ChatGPT‑5.1 Pro and Cursor as study partners while working on this project. They helped with brainstorming, drafting text, and reminding me of FastAPI and Docker syntax. I reviewed, edited, and tested all code myself, and I am responsible for the final version, consistent with the DS 2022 policy on acceptable AI use.
+I used ChatGPT‑5.1 Pro and Cursor as study partners while working on this project. They helped with brainstorming, drafting text, and reminding me of FastAPI and Docker syntax. I reviewed, edited, and tested all code myself, and I am responsible for the final version.
 
 The team statistics in `assets/teams.json` were typed in by me, using public NFL stat websites (such as Pro‑Football‑Reference) as a rough reference for realistic scoring and records. This dataset is only intended for educational use in this course.
 
