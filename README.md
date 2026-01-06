@@ -78,7 +78,7 @@ The FastAPI app is in `src/app.py`. Key routes are:
 
     ---
 
-### Option B – Docker (recommended for grading)
+### Option B – Docker
 
 Before running, make sure Docker Desktop is installed and running.
 
