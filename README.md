@@ -103,7 +103,7 @@ I wanted something small, clear, and easy to understand. That drove almost every
 - keep the API surface tiny (`/health`, `/teams`, `/compare/{team_a}/{team_b}`)
 - make it easy to run the same way on any machine (Python or Docker)
 
-The goal was not to build a full NFL stats platform, but a clean example that uses the DS 2022 concepts end‑to‑end.
+The goal was not to build a full NFL stats platform, but a clean example that uses core DS concepts end‑to‑end.
 
 ### Tech stack and project layout
 
